@@ -38,6 +38,9 @@ dalvik.vm.lockprof.threshold=500
 ## FRP
 ro.frp.pst=/dev/block/persistent
 
+## FUSE
+persist.sys.fuse.passthrough.enable=true
+
 ## Graphics
 ro.hardware.egl=mali
 ro.opengles.version=196610

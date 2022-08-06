@@ -1,0 +1,1 @@
+allow untrusted_app mnt_vendor_file:dir { search };

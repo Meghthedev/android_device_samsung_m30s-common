@@ -1,0 +1,3 @@
+# hal_lineage_livedisplay_exynos.te
+
+allow hal_lineage_livedisplay_exynos sysfs_lcd_writable:dir r_dir_perms;

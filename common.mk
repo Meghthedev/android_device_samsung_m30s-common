@@ -9,11 +9,8 @@ COMMON_PATH := device/samsung/m30s-common
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/m30s-common/m30s-common-vendor.mk)
 
-# dotOS
-TARGET_SUPPORTS_BLUR := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+# Spark
 WITH_GAPPS := true
-EXTRA_FOD_ANIMATIONS := true
 
 # Audio
 PRODUCT_PACKAGES += \

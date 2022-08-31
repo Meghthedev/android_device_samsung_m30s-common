@@ -5,8 +5,8 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsProviderOverlay",
-    theme: "SettingsProviderOverlay",
+    name: "SettingsOverlay",
+    theme: "SettingsOverlay",
     sdk_version: "current",
     vendor: true,
 }

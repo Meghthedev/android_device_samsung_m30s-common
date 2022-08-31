@@ -1,0 +1,21 @@
+<!--
+     Copyright (C) 2022 The LineageOS Project
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Whether or not the device is capable of multiple levels of vibration intensity.
+         Note that this is different from whether it can control the vibration amplitude as some
+         devices will be able to vary their amplitude but do not possess enough dynamic range to
+         have distinct intensity levels -->
+    <bool name="config_vibration_supports_multiple_intensities">true</bool>
+
+    <!-- Whether or not device header widget tile should display in device info page -->
+    <bool name="config_show_device_header_in_device_info">false</bool>
+
+    <!-- Whether or not homepage should display user's account avatar -->
+    <bool name="config_show_avatar_in_homepage">true</bool>
+
+</resources>

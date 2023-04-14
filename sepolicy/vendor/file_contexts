@@ -78,6 +78,9 @@
 /sys/devices/soc0/machine                                     u:object_r:sysfs_sec_gps:s0
 /sys/devices/soc0/revision                                    u:object_r:sysfs_sec_gps:s0
 
+# Wakeup
+/sys/devices/platform/(.*)/wakeup[0-9]*(/.*)?                 u:object_r:sysfs_wakeup:s0
+
 ## System
 /system/bin/clean_scratch_files                               u:object_r:clean_scratch_files_exec:s0
 

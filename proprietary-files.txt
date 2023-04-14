@@ -88,6 +88,10 @@ vendor/lib64/libremosaiclib_s5k3p8sp.so
 ## Charger Firmware
 vendor/firmware/mfc_fw.bin
 
+## Camera Firmware
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta.bin
+
 ## Codecs
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_performance.xml
@@ -185,10 +189,6 @@ vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so
 vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so
 vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so
 vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so
-
-## OMX Firmware
-vendor/firmware/fimc_is_lib.bin
-vendor/firmware/fimc_is_rta.bin
 
 ## RIL
 vendor/lib/libaudio-ril.so

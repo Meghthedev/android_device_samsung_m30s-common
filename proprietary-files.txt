@@ -85,9 +85,6 @@ vendor/lib64/libremosaic_daemon.so
 vendor/lib64/libremosaiclib_s5kgm2.so
 vendor/lib64/libremosaiclib_s5k3p8sp.so
 
-## Charger Firmware
-vendor/firmware/mfc_fw.bin
-
 ## Camera Firmware
 vendor/firmware/fimc_is_lib.bin
 vendor/firmware/fimc_is_rta.bin
@@ -96,6 +93,9 @@ vendor/firmware/fimc_is_rta.bin
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_profiles_V1_0.xml
+
+## Exynos Multi-Format Codec (MFC) Firmware
+vendor/firmware/mfc_fw.bin
 
 ## Firmware
 vendor/firmware/CC_DRAM_CODE_FLASH.bin

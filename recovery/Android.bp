@@ -1,0 +1,19 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "librecovery_updater_exynos9611",
+    srcs: [
+        "recovery_updater.cpp",
+    ],
+    header_libs: ["libbase_headers"],
+    include_dirs: [
+        "bootable/recovery",
+        "bootable/recovery/edify/include",
+        "bootable/recovery/otautil/include",
+        "system/libziparchive/include"
+    ],
+}

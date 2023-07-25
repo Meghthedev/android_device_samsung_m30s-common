@@ -240,10 +240,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.typec
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.3-service.samsung
-
 # WiFi
 PRODUCT_PACKAGES += \
     WifiOverlay \

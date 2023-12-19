@@ -96,10 +96,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     android.hardware.drm@1.3.vendor
 
-# FastCharge
-PRODUCT_PACKAGES += \
-    vendor.lineage.fastcharge@1.0-service.samsung
-
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl:64 \
@@ -157,14 +153,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.samsung
-
-# Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-exynos
-    
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -265,10 +253,6 @@ PRODUCT_COPY_FILES += \
 # Touch HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.samsung
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \

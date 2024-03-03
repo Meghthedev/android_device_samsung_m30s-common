@@ -2,3 +2,4 @@ type dtb_block_device, dev_type;
 type m2m1shot_device, dev_type;
 type secmem_device, dev_type;
 type vendor_block_device, dev_type;
+type bt_device, dev_type;
